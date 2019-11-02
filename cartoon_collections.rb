@@ -13,5 +13,6 @@ end
 def find_the_cheese(stuff)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  stuff.collect{ |i| p i, cheese_types }
+  cheeses = cheese_types.each
+  stuff.collect{ |i| p i, cheeses }
 end
